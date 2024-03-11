@@ -1,0 +1,17 @@
+{
+  "name": "doscom-du-web",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "postcss": "^8.4.35",
+    "svelte": "^4.2.12",
+    "tailwindcss": "^3.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
